@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Let</title>
+  </head>
+  <body>
+    <script>
+
+      function exampleOne(){
+        if(true){
+          var x = "X";
+          console.log(x);
+        } else {
+          var y = "Y";
+          console.log(y);
+        }
+
+        console.log(y);
+      }
+
+      function exampleTwo(){
+        if(true){
+          let x = "X";
+          console.log(x);
+        } else {
+          let y = "Y";
+          console.log(y);
+        }
+
+        console.log(y);
+      }
+
+      exampleOne();
+      exampleTwo();
+
+    </script>
+  </body>
+</html>

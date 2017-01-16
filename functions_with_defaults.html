@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Functions with Defaults</title>
+  </head>
+  <body>
+    <script>
+
+      someFunction(["Scott", "Fred", "Mark"]);
+      someFunction();
+      someFunction(undefined);
+
+      //Default Values
+      function someFunction(users = []){
+        //Do stuff
+        console.log(users.length);
+      }
+
+      // function someFunction(users){
+      //   //Do stuff
+      //   console.log(users.length);
+      // }
+
+    </script>
+  </body>
+</html>

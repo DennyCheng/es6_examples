@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Function withs Options</title>
+  </head>
+  <body>
+    <script>
+
+      function printPerson(name, {city, employer}){
+        console.log("This is " + name + " and they live in " + city + ". Also, they work at " + employer + ".");
+      }
+
+      printPerson("Scott", {
+        city: "Lakeville",
+        employer: "Prime Academy"
+      });
+
+    </script>
+  </body>
+</html>

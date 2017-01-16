@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Const</title>
+  </head>
+  <body>
+    <script>
+      //Magic Numbers
+      //Unchangeable Values
+
+      var users = ["Scott", "Mark", "Fred", "Kris", "Luke", "Millie", "Dev"];
+
+      //Must be assigned right away, block scoped, cant change
+      const MAX_USERS = 10;
+
+      //3 is a Magic Number. What is it? Its not descript.
+      if(users.length > 3){
+        //do something, like append the DOM with a certain number of users
+      }
+
+      //Much more descript.
+      if(users.length > MAX_USERS){
+        //do something, like append the DOM with a certain number of users
+      }
+
+    </script>
+  </body>
+</html>
