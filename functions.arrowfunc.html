@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <script type="text/javascript">
+
+      console.log(test(21));
+
+      function test() {
+        console.log('test args ', arguments[0]);
+        var thing = (num) => {
+          console.log(num);
+          console.log('inside arrow function: ', arguments[0]);
+        }
+        return thing(88);
+      }
+
+
+    </script>
+  </body>
+</html>
