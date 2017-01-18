@@ -18,3 +18,9 @@ This lecture is intended to give students a taste of ES6 features. It does not c
   - with options
   - with defaults
   - arrow functions
+
+
+## Resources
+
+Free online book [exploring ES6](http://exploringjs.com/es6/index.html)
+Online "katas" to help learn the new features http://es6katas.org/
